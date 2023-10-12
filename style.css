@@ -52,6 +52,7 @@ nav ul li a {
   outline: 1px solid red;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 0 16px;
 }
 
@@ -75,17 +76,31 @@ nav ul li a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  max-width: 453.2px;
 }
 
 .homepage-illustration {
   outline: 1px solid red;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 120px;
 }
 
 .illustration {
   width: 60%;
   height: 100%;
+}
+
+/* Ellipse */
+
+.ellipse {
+  background: var(--primary-200, #FAF1E5);
+  filter: blur(100px);
+  height: 474px;
+  width: 474px;
+  border-radius: 474px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  z-index: -1;
 }
