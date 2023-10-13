@@ -49,7 +49,7 @@ nav ul li a {
 /* Homepage main section */
 
 .homepage-main-section {
-  outline: 1px solid red;
+  outline: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,13 +57,13 @@ nav ul li a {
 }
 
 .homepage-main-copy {
-  outline: 1px solid red;
+  outline: 1px solid orange;
   display: flex;
   flex-direction: column;
 }
 
 .homepage-main-copy h1 {
-  outline: 1px solid red;
+  outline: 1px solid orange;
   margin-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .homepage-main-copy p {
-  outline: 1px solid red;
+  outline: 1px solid orange;
   margin-bottom: 32px;
   font-size: 16px;
   line-height: 1.6;
@@ -80,18 +80,28 @@ nav ul li a {
 }
 
 .homepage-illustration {
-  outline: 1px solid red;
+  outline: 1px solid greenyellow;
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
 }
 
 .illustration {
+  outline: 1px solid greenyellow;
   width: 60%;
   height: 100%;
 }
 
 /* Ellipse */
+
+.ellipse-container {
+  outline: 1px solid blue;
+  width: 100%;
+  position: relative;
+  top: -550px;
+  left: 120px;
+  z-index: -1;
+}
 
 .ellipse {
   background: var(--primary-200, #FAF1E5);
@@ -100,7 +110,5 @@ nav ul li a {
   width: 474px;
   border-radius: 474px;
   position: absolute;
-  top: 180px;
-  left: 100px;
-  z-index: -1;
+  overflow: hidden;
 }
