@@ -14,6 +14,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: #1E2229;
   background-color: white;
+  position: relative;
 }
 
 /* Header */
