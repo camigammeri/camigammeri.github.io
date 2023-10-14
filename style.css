@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 body {
   padding-top: 136px;
   font-family: 'Inter', sans-serif;
   color: #1E2229;
   background-color: white;
-  overflow-x: hidden;
 }
 
 /* Header */
@@ -103,7 +107,6 @@ nav ul li a {
   width: 474px;
   border-radius: 474px;
   position: absolute;
-  overflow: hidden;
   top: 200px;
   left: 80px;
   z-index: -1;
