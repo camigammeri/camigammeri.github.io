@@ -9,6 +9,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: #1E2229;
   background-color: white;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -94,15 +95,6 @@ nav ul li a {
 
 /* Ellipse */
 
-.ellipse-container {
-  outline: 1px solid blue;
-  width: 100%;
-  position: relative;
-  top: -550px;
-  left: 120px;
-  z-index: -1;
-}
-
 .ellipse {
   background: var(--primary-200, #FAF1E5);
   filter: blur(100px);
@@ -111,4 +103,7 @@ nav ul li a {
   border-radius: 474px;
   position: absolute;
   overflow: hidden;
+  top: 200px;
+  left: 80px;
+  z-index: -1;
 }
