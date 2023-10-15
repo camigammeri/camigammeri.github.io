@@ -8,7 +8,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
 body {
   padding-top: 136px;
   font-family: 'Inter', sans-serif;
@@ -17,7 +16,7 @@ body {
   position: relative;
 }
 
-/* Header */
+/* HEADER */
 
 nav {
   outline: 1px solid red;
@@ -53,7 +52,7 @@ nav ul li a {
   padding-left: 32px;
 }
 
-/* Homepage main section */
+/* HOMEPAGE MAIN SECTION */
 
 .homepage-main-section {
   outline: 1px solid black;
@@ -61,6 +60,7 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   padding: 0 16px;
+  margin-bottom: 120px;
 }
 
 .homepage-main-copy {
@@ -74,12 +74,13 @@ nav ul li a {
   margin-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
+  letter-spacing: -2%;
   text-align: center;
 }
 
 .homepage-main-copy p {
   outline: 1px solid orange;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -90,19 +91,18 @@ nav ul li a {
   outline: 1px solid greenyellow;
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
 }
 
 .illustration {
   outline: 1px solid greenyellow;
-  width: 60%;
+  width: 70%;
   height: 100%;
 }
 
-/* Ellipse */
+/* ELLIPSE */
 
 .ellipse {
-  background: var(--primary-200, #FAF1E5);
+  background: #FAF1E5;
   filter: blur(100px);
   height: 474px;
   width: 474px;
@@ -111,4 +111,56 @@ nav ul li a {
   top: 200px;
   left: 80px;
   z-index: -1;
+}
+
+/* PROJECTS */
+
+.projects-container {
+  display: block;
+  padding: 0 16px;
+  margin-bottom: 160px;
+}
+
+.project {
+  outline: 1px solid red;
+  display: block;
+  margin-bottom: 48px;
+}
+
+.project img {
+  outline: 1px solid blue;
+  aspect-ratio: 16/9;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.project-description h3 {
+  outline: 1px solid blue;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  margin-bottom: 8px;
+}
+
+.project-description p {
+  outline: 1px solid orange;
+  margin-bottom: 12px;
+}
+
+.chips {
+  outline: 1px solid violet;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chips p {
+  outline: 1px solid violet;
+  font-size: 12px;
+  line-height: 0.75;
+  color: #333333;
+  padding: 8px 10px;
+  border-radius: 40px;
+  background: #F1F6FF;
+  margin-right: 6px;
+  margin-bottom: 0;
 }
