@@ -169,3 +169,30 @@ nav ul li a {
   margin-right: 6px;
   margin-bottom: 0;
 }
+
+/* CONTACT */
+
+/* FOOTER */
+
+footer {
+  display: block;
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.social img {
+  height: 24px;
+  padding: 0 12px;
+}
+
+.copyright p {
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0;
+}
