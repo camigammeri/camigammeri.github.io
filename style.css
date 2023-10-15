@@ -67,6 +67,7 @@ nav ul li a {
   outline: 1px solid orange;
   display: flex;
   flex-direction: column;
+  max-width: 468px;
 }
 
 .homepage-main-copy h1 {
@@ -84,13 +85,13 @@ nav ul li a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  max-width: 453.2px;
 }
 
 .homepage-illustration {
   outline: 1px solid greenyellow;
   display: flex;
   justify-content: center;
+  max-width: 468px;
 }
 
 .illustration {
@@ -123,8 +124,12 @@ nav ul li a {
 
 .project {
   outline: 1px solid red;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  max-width: 468px;
   margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .project img {
