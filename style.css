@@ -232,6 +232,7 @@ input, textarea {
   border: none;
   border-bottom: 2px solid #F1D4B2;
   background: none;
+  color: #1E2229;
 }
 
 input {
@@ -243,11 +244,17 @@ textarea {
   min-height: 64px;
   margin-bottom: 24px;
   color: #4A5364;
+  resize: vertical;
+}
+
+input, textarea:focus {
+  outline-width: 0;
+  border-bottom: 2px solid #F1D4B2;
 }
 
 ::placeholder {
   color: #4A5364;
-}
+} 
 
 .primary-btn,
 .secondary-btn {

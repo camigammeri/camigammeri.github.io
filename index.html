@@ -96,9 +96,9 @@
         <h1>Let’s talk 💬</h1>
         <p>Want to work together an create an awesome digital product? I can’t wait to hear about your project. Fill the form and I’ll be back to you within 48 hours.</p>
         <form>
-          <input type="text" id="name" name="name" placeholder="Name" required>
-          <input type="email" id="email" name="email" placeholder="Email" required>
-          <textarea id="message" name="message" placeholder="Message">Message</textarea>
+          <input type="text" id="name" name="name" placeholder="Name" required onfocus="this.placeholder=''" onblur="this.placeholder='Name'">
+          <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
+          <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
           <input type="submit" value="Send" class="primary-btn">
           <input type="reset" value="Cancel" class="secondary-btn" style="margin-bottom: 0;">
         </form>
