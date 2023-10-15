@@ -50,6 +50,12 @@ nav ul li a {
   text-decoration: none;
   color: #1E2229;
   padding-left: 32px;
+  
+}
+
+a:hover {
+  color: #1E2229;
+  text-decoration: underline;
 }
 
 /* HOMEPAGE MAIN SECTION */
@@ -132,11 +138,23 @@ nav ul li a {
   margin-left: auto;
 }
 
-.project img {
+.img-container {
   outline: 1px solid blue;
   aspect-ratio: 16/9;
   width: 100%;
   margin-bottom: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-container img {
+  width: 100%;
+  transition: transform .8s ease;
+}
+
+.img-container:hover img {
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 
 .project-description h3 {
@@ -231,12 +249,12 @@ textarea {
   color: #4A5364;
 }
 
-.btn {
+.primary-btn,
+.secondary-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #F1D4B2;
-  padding: 8px 48px;
+  height: 44px;
   border-radius: 8px;
 }
 
@@ -245,9 +263,19 @@ textarea {
   font-weight: 600;
 }
 
+.primary-btn:hover {
+  background: #EDCAA0;
+}
+
 .secondary-btn {
   background: none;
   font-weight: 500;
+  border: 2px solid #F1D4B2;
+}
+
+.secondary-btn:hover {
+  background: #F4DEC3;
+  border: none;
 }
 
 /* FOOTER */
