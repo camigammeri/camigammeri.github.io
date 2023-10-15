@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 136px;
+  font-family: 'Inter', sans-serif;
+  color: #1E2229;
+  background-color: white;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EDEFF2;
+  box-shadow: inset 0 0 5px #98A2B3;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F1D4B2;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EDCAA0;
+}
