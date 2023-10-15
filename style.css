@@ -54,7 +54,7 @@ nav ul li a {
 
 /* HOMEPAGE MAIN SECTION */
 
-.homepage-main-section {
+.homepage-title-containter {
   outline: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -63,23 +63,23 @@ nav ul li a {
   margin-bottom: 120px;
 }
 
-.homepage-main-copy {
+.homepage-title-copy {
   outline: 1px solid orange;
   display: flex;
   flex-direction: column;
   max-width: 468px;
 }
 
-.homepage-main-copy h1 {
+.homepage-title-copy h1 {
   outline: 1px solid orange;
   margin-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: -2%;
+  letter-spacing: -0.8px;
   text-align: center;
 }
 
-.homepage-main-copy p {
+.homepage-title-copy p {
   outline: 1px solid orange;
   margin-bottom: 40px;
   font-size: 16px;
@@ -143,7 +143,7 @@ nav ul li a {
   outline: 1px solid blue;
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: -2%;
+  letter-spacing: -0.8px;
   margin-bottom: 8px;
 }
 
@@ -155,6 +155,7 @@ nav ul li a {
 .chips {
   outline: 1px solid violet;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
@@ -171,6 +172,83 @@ nav ul li a {
 }
 
 /* CONTACT */
+
+.contact-background {
+  display: block;
+  padding: 48px 16px;
+  margin-bottom: 160px;
+  background-color: #FDFAF6;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 358px;
+}
+
+.contact-container h1,
+.contact-container p {
+  text-align: center;
+}
+.contact-container h1 {
+  outline: 1px solid red;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+
+.contact-container p {
+  outline: 1px solid yellowgreen;
+  margin-bottom: 48px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  border: none;
+  border-bottom: 2px solid #F1D4B2;
+  background: none;
+}
+
+input {
+  margin-bottom: 16px;
+  min-height: 32px;
+}
+
+textarea {
+  min-height: 64px;
+  margin-bottom: 24px;
+  color: #4A5364;
+}
+
+::placeholder {
+  color: #4A5364;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F1D4B2;
+  padding: 8px 48px;
+  border-radius: 8px;
+}
+
+.primary-btn {
+  background: #F1D4B2;
+  font-weight: 600;
+}
+
+.secondary-btn {
+  background: none;
+  font-weight: 500;
+}
 
 /* FOOTER */
 
