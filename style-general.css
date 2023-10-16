@@ -14,8 +14,9 @@ body {
   color: #1E2229;
   background-color: white;
   position: relative;
-  scroll-behavior: smooth;
 }
+
+/* TYPESCALE */
 
 h1 {
   font-size: 32px;
@@ -34,6 +35,8 @@ p {
   font-weight: 400;
 }
 
+/* SCROLLBAR */
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -51,4 +54,12 @@ p {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #EDCAA0;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (min-width: 992px) {
+  body {
+    padding-top: 160px;
+  }
 }
