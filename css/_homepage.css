@@ -16,6 +16,8 @@
 }
 
 .homepage-title-copy h1 {
+  font-size: 32px;
+  font-weight: 700;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -38,7 +40,7 @@
 }
 
 .ellipse {
-  background: #FAF1E5;
+  background: var(--primary-200);
   filter: blur(80px);
   height: 480px;
   width: 480px;
@@ -85,10 +87,12 @@
 }
 
 .project-description h3 {
+  font-size: 24px;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
-.project-description p {
+.project-description > p {
   margin-bottom: 12px;
 }
 
@@ -101,12 +105,11 @@
 .chips p {
   font-size: 12px;
   line-height: 0.75;
-  color: #333333;
+  color: var(--neutral-800);
   padding: 8px 10px;
   border-radius: 40px;
   background: #F1F6FF;
   margin-right: 6px;
-  margin-bottom: 0;
 }
 
 /* CONTACT */
@@ -126,13 +129,13 @@
   max-width: 358px;
 }
 
-.contact-container h1,
-.contact-container p {
+.contact-container :is(h2,p) {
   text-align: center;
 }
-.contact-container h1 {
-  margin-bottom: 24px;
+.contact-container h2 {
+  font-size: 32px;
   font-weight: 600;
+  margin-bottom: 24px;
 }
 
 .contact-container p {
@@ -146,9 +149,9 @@ form {
 
 input, textarea {
   border: none;
-  border-bottom: 2px solid #F1D4B2;
+  border-bottom: 2px solid var(--primary-500);
   background: none;
-  color: #1E2229;
+  color: var(--neutral-900);
 }
 
 input {
@@ -159,16 +162,15 @@ input {
 textarea {
   min-height: 64px;
   margin-bottom: 24px;
-  color: #4A5364;
+  color: var(--neutral-700);
 }
 
 input, textarea:focus {
   outline-width: 0;
-  border-bottom: 2px solid #F1D4B2;
 }
 
 ::placeholder {
-  color: #4A5364;
+  color: var(--neutral-700);
 }
 
 .btn-container {
@@ -187,23 +189,26 @@ input, textarea:focus {
 }
 
 .primary-btn {
-  background-color: #F1D4B2;
+  background-color: var(--primary-500);
+  font-size: 16px;
   font-weight: 600;
   border-bottom: none;
 }
 
 .primary-btn:hover {
-  background-color: #EDCAA0;
+  background-color: var(--primary-600);
 }
 
 .secondary-btn {
   background-color: none;
+  font-size: 16px;
   font-weight: 500;
-  border: 2px solid #F1D4B2;
+  border: 2px solid var(--primary-500);
+  
 }
 
 .secondary-btn:hover {
-  background-color: #F4DEC3;
+  background-color: var(--primary-300);
   border: none;
 }
 
@@ -229,7 +234,6 @@ footer {
 .copyright p {
   font-size: 10px;
   text-align: center;
-  margin-bottom: 0;
 }
 
 /* BREAKPOINTS */
@@ -251,8 +255,7 @@ footer {
     margin-right: 40px;
   }
 
-  .homepage-title-copy h1,
-  .homepage-title-copy p {
+  .homepage-title-copy :is(h1,p) {
     text-align: left;
   }
 
@@ -299,12 +302,8 @@ footer {
     margin-bottom: 12px;
   }
 
-  .project-description p {
+  .project-description > p {
     margin-bottom: 16px;
-  }
-
-  .chips p {
-    font-size: 12px;
   }
 
   /* CONTACT */
@@ -331,8 +330,7 @@ footer {
     max-width: 412px;
   }
 
-  .contact-copy h1,
-  .contact-copy p {
+  .contact-copy :is(h2,p) {
     text-align: left;
   }
 
@@ -346,14 +344,18 @@ footer {
     max-width: 364px;
   }
 
+  form > input {
+    margin-bottom: 24px;
+  }
+
   .btn-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
 
-  input {
-    margin-bottom: 24px;
+  .btn-container input {
+    margin-bottom: 0;
   }
 
   textarea {
@@ -364,7 +366,6 @@ footer {
     line-height: 0;
     padding: 0 48px;
     margin-left: 32px;
-    margin-bottom: 0;
   }
 
   .secondary-btn {
@@ -372,7 +373,7 @@ footer {
     order: -1;
   }
 
-  .secondary-btn:hover:hover {
+  .secondary-btn:hover {
     text-decoration: underline;
     background: none;
   }
@@ -416,6 +417,10 @@ footer {
     margin-right: 60px;
   }
 
+  .homepage-title-copy h1 {
+    font-size: 40px;
+  }
+
   .homepage-illustration {
     margin-left: 60px;
   }
@@ -450,9 +455,7 @@ footer {
 
   .contact-background {
     padding: 140px 80px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 200px;
+    margin: 0 80px 200px 80px;
   }
 
   .contact-container {
@@ -462,6 +465,10 @@ footer {
   .contact-copy {
     max-width: 412px;
     margin-right: 40px;
+  }
+
+  .contact-copy h2 {
+    font-size: 40px;
   }
   
   /* FOOTER */
