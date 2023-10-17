@@ -56,10 +56,70 @@ p {
   background: #EDCAA0;
 }
 
+/* HEADER */
+
+nav {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+nav img {
+  height: 56px;
+  width: 56px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1E2229;
+  padding-left: 32px;
+  
+}
+
+a:hover {
+  color: #1E2229;
+  text-decoration: underline;
+}
+
 /* BREAKPOINTS */
 
+@media only screen and (min-width: 768px) {
+  
+  body {
+    padding-top: 160px;
+  }
+
+  /* HEADER */
+
+  nav {
+    padding: 16px 32px;
+  }
+
+}
+
 @media only screen and (min-width: 992px) {
+  
   body {
     padding-top: 200px;
+  }
+
+  /* HEADER */
+
+  nav {
+    padding: 16px 80px;
   }
 }
