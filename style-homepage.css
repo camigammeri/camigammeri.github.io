@@ -328,6 +328,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 32px;
+    max-width: 412px;
   }
 
   .contact-copy h1,
@@ -340,8 +341,9 @@ footer {
   }
 
   form {
-    width: 320px;
+    width: 100%;
     min-width: 320px;
+    max-width: 364px;
   }
 
   .btn-container {
@@ -460,11 +462,6 @@ footer {
   .contact-copy {
     max-width: 412px;
     margin-right: 40px;
-  }
-
-  form {
-    width: 364px;
-    min-width: 320px;
   }
   
   /* FOOTER */
