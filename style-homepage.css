@@ -29,13 +29,12 @@
 .homepage-illustration {
   display: flex;
   justify-content: center;
-  max-width: 468px;
   position: relative;
 }
 
 .illustration {
-  width: 60%;
-  height: 100%;
+  width: 100%;
+  height: 286px;
 }
 
 .ellipse {
@@ -243,12 +242,13 @@ footer {
     flex-direction: row;
     justify-content: center;
     padding: 0 32px;
-    max-width: 800px;
+    max-width: none;
     margin-bottom: 200px;
-  }
+  } 
 
   .homepage-title-copy {
-    min-width: 360px;
+    min-width: 320px;
+    margin-right: 40px;
   }
 
   .homepage-title-copy h1,
@@ -262,11 +262,12 @@ footer {
 
   .homepage-illustration {
     justify-content: flex-end;
-    max-width: none;
+    flex-shrink: 0;
+    margin-left: 40px;
   }
 
   .illustration {
-    width: 70%;
+    height: 280px;
   }
 
   .ellipse {
@@ -404,16 +405,22 @@ footer {
 
   .homepage-title-containter {
     padding: 0 80px;
-    max-width: 1140px;
+    max-width: 1280px;
     margin-bottom: 220px;
   }
 
   .homepage-title-copy {
     min-width: 430px;
+    margin-right: 60px;
+  }
+
+  .homepage-illustration {
+    margin-left: 60px;
   }
 
   .illustration {
-    width: 60%;
+    width: 100%;
+    height: 330px;
   }
 
   .ellipse {
