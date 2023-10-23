@@ -1,0 +1,57 @@
+footer {
+  display: block;
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.social img {
+  height: 24px;
+  padding: 0 12px;
+}
+
+.copyright p {
+  font-size: 10px;
+  text-align: center;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (min-width: 768px) {
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+  }
+
+  .social {
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  .social img {
+    padding-left: 24px;
+    padding-right: 0;
+  }
+
+  .copyright p {
+    font-size: 12px;
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+
+  footer {
+    padding: 0 80px;
+  }
+
+}
