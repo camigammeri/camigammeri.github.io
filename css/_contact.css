@@ -13,19 +13,30 @@
   max-width: 358px;
 }
 
-.contact-container :is(h2,p) {
+.contact-copy :is(h2,p) {
   text-align: center;
 }
 
-.contact-container h2 {
-  font-size: 32px;
-  font-weight: 600;
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 24px;
 }
 
-.contact-container p {
+.contact-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-right: 16px;
+}
+
+.contact-title img {
+  height: 32px;
+}
+
+.contact-copy p {
   margin-bottom: 48px;
-  line-height: 1.6;
 }
 
 form {
@@ -65,38 +76,8 @@ input, textarea:focus {
   flex-direction: column;
 }
 
-.primary-btn,
 .secondary-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.primary-btn {
-  background-color: var(--primary-500);
-  font-size: 16px;
-  font-weight: 600;
-  border-bottom: none;
-}
-
-.primary-btn:hover {
-  background-color: var(--primary-600);
-}
-
-.secondary-btn {
-  background-color: none;
-  font-size: 16px;
-  font-weight: 500;
-  border: 2px solid var(--primary-500);
-  
-}
-
-.secondary-btn:hover {
-  background-color: var(--primary-300);
-  border: none;
+  margin-bottom: 0;  
 }
 
 /* BREAKPOINTS */
@@ -125,8 +106,12 @@ input, textarea:focus {
     max-width: 412px;
   }
 
-  .contact-copy :is(h2,p) {
+  .contact-copy :is(.contact-title,p) {
     text-align: left;
+  }
+
+  .contact-title {
+    justify-content: flex-start;
   }
 
   .contact-copy p {
@@ -144,7 +129,6 @@ input, textarea:focus {
   }
 
   .btn-container {
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
@@ -158,8 +142,6 @@ input, textarea:focus {
   }
 
   .primary-btn {
-    line-height: 0;
-    padding: 0 48px;
     margin-left: 32px;
   }
 

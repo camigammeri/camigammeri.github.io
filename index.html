@@ -16,113 +16,120 @@
 
 <!-- HEADER -->
 
-  <header>
-    <nav>
-      <img src="assets\img\cowgirl-logo.png" alt="logo">
-      <ul>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
+<header>
+  <nav>
+    <img src="assets\img\illustrations\cowgirl-logo.png" alt="logo">
+    <ul>
+      <li><a href="index.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
 
 <!-- HOMEPAGE TITLE SECTION -->
 
-    <section class="homepage-title-containter">
-      <div class="homepage-title-copy">
-        <h1>Howdy, I’m Camilla 👋</h1>
-        <p><strong>Junior UX/UI Designer</strong> with a growing interest in Frontend Development. I will design an <strong>user centred</strong> and <strong>engaging digital experience</strong> for your product or service!</p>
-      </div>
-      <div class="homepage-illustration">
-        <img src="assets\img\dog-illustration.png" alt="illustration" class="illustration">
-        <div class="ellipse"></div>
-      </div>
-    </section>    
+  <section class="homepage-title-containter">
+    <div class="homepage-title-copy">
+      <h1>Howdy, I’m Camilla</h1>
+      <p><strong>Junior UX/UI Designer</strong> with a growing interest in Frontend Development. I will design an <strong>user centred</strong> and <strong>engaging digital experience</strong> for your product or service!</p>
+    </div>
+    <div class="homepage-illustration">
+      <img src="assets\img\illustrations\dog-illustration.png" alt="illustration" class="illustration">
+      <div class="ellipse"></div>
+    </div>
+  </section>    
 
 <!-- PROJECTS -->
 
-    <section class="projects-container">
-      <div class="project">
-        <div class="img-container">
-          <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
-        </div>
-        <div class="project-description">
-          <h3>Buddhify</h3>
-          <p>Redesign of a meditation app website</p>
-          <div class="chips">
-            <p>🔎 UX design</p>
-            <p>🎨 UI design</p>
-            <p>✅ User test</p>
-          </div>
+  <section class="projects-container">
+
+    <div class="project">
+      <div class="img-container">
+        <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
+      </div>
+      <div class="project-description">
+        <h3>Buddhify</h3>
+        <p>Redesign of a meditation app website</p>
+        <div class="chips">
+          <p>🔎 UX design</p>
+          <p>🎨 UI design</p>
+          <p>✅ User test</p>
         </div>
       </div>
-      <div class="project">
-        <div class="img-container">
-          <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
-        </div>        
-        <div class="project-description">
-          <h3>Personal web portfolio</h3>
-          <p>Building my web portfolio using HTML&CSS</p>
-          <div class="chips">
-            <p>💻 Frontend dev</p>
-            <p>🎨 UI design</p>            
-          </div>
+    </div>
+
+    <div class="project">
+      <div class="img-container">
+        <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
+      </div>        
+      <div class="project-description">
+        <h3>Personal web portfolio</h3>
+        <p>Building my web portfolio using HTML&CSS</p>
+        <div class="chips">
+          <p>💻 Frontend dev</p>
+          <p>🎨 UI design</p>            
         </div>
       </div>
-      <div class="project">
-        <div class="img-container">
-          <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
-        </div>
-        <div class="project-description">
-          <h3>Sunnee</h3>
-          <p>Brand identity designing for a swimwear brand</p>
-          <div class="chips">
-            <p>🎯 Brand strategy</p>
-            <p>🖌 Graphic design</p>
-          </div>
+    </div>
+
+    <div class="project">
+      <div class="img-container">
+        <img src="assets\img\image-placeholder.png" alt="project-thumbnail">
+      </div>
+      <div class="project-description">
+        <h3>Sunnee</h3>
+        <p>Brand identity designing for a swimwear brand</p>
+        <div class="chips">
+          <p>🎯 Brand strategy</p>
+          <p>🖌 Graphic design</p>
         </div>
       </div>
-    </section>
+    </div>
+
+  </section>
 
 <!-- CONTACT -->
 
-    <section class="contact-background">
-      <div class="contact-container">
-        <div class="contact-copy">        
-          <h2>Let’s talk 💬</h2>
-          <p>Want to work together an create an awesome digital product? I can’t wait to hear about your project. Fill the form and I’ll be back to you within 48 hours.</p>
-        </div>
-        <form>
-          <input type="text" id="name" name="name" placeholder="Name" required onfocus="this.placeholder=''" onblur="this.placeholder='Name'">
-          <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
-          <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
-          <div class="btn-container">
-            <input type="submit" value="Send" class="primary-btn">
-            <input type="reset" value="Cancel" class="secondary-btn">
-          </div>
-        </form>
+  <section id="contact-section" class="contact-background">
+    <div class="contact-container">
+      <div class="contact-copy">
+        <div class="contact-title">       
+          <h2>Let’s talk</h2>
+          <img src="assets\img\illustrations\chat.png" alt="chat-icon" class="">
+        </div> 
+        <p>Want to work together an create an awesome digital product? I can’t wait to hear about your project. Fill the form and I’ll be back to you within 48 hours.</p>
       </div>
-    </section>
-    
-  </main>
+      <form>
+        <input type="text" id="name" name="name" placeholder="Name" required onfocus="this.placeholder=''" onblur="this.placeholder='Name'">
+        <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
+        <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
+        <div class="btn-container">
+          <input type="submit" value="Send" class="primary-btn">
+          <input type="reset" value="Cancel" class="secondary-btn">
+        </div>
+      </form>
+    </div>
+  </section>
+  
+</main>
 
 <!-- FOOTER -->
-  
-  <footer>
-    <div class="social">
-      <a href="https://t.me/camiholmes"><img src="assets\img\telegram.png" alt="telegram-icon" ></a>
-      <a href="https://www.linkedin.com/in/camilla-gammeri/"><img src="assets\img\linkedIn.png" alt="linkedin-icon"></a>
-      <a href="https://github.com/fiutos"><img src="assets\img\github.png" alt="github-icon"></a>
-      <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8"><img src="assets\img\spotify.png" alt="spotify-icon"></a>      
-      <a href="https://www.instagram.com/fiutos/"><img src="assets\img\instagram.png" alt="instagram-icon"></a>
-    </div>
-    <div class="copyright">
-      <p>Copyright © 2023 Camilla Gammeri. All rights reserved.</p>
-    </div>
-  </footer>
+
+<footer>
+  <div class="social">
+    <a href="https://t.me/camiholmes"><img src="assets\img\social-icons\telegram.png" alt="telegram-icon" ></a>
+    <a href="https://www.linkedin.com/in/camilla-gammeri/"><img src="assets\img\social-icons\linkedIn.png" alt="linkedin-icon"></a>
+    <a href="https://github.com/fiutos"><img src="assets\img\social-icons\github.png" alt="github-icon"></a>
+    <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8"><img src="assets\img\social-icons\spotify.png" alt="spotify-icon"></a>      
+    <a href="https://www.instagram.com/fiutos/"><img src="assets\img\social-icons\instagram.png" alt="instagram-icon"></a>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2023 Camilla Gammeri. All rights reserved.</p>
+  </div>
+</footer>
 
 </body>
 

@@ -1,12 +1,11 @@
-/* HOMEPAGE MAIN SECTION */
+/* HOMEPAGE TITLE SECTION */
 
 .homepage-title-containter {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 16px;
-  margin: 0 auto;
-  margin-bottom: 120px;
+  margin: 0 auto 120px auto;
 }
 
 .homepage-title-copy {

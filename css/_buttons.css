@@ -1,0 +1,43 @@
+.primary-btn,
+.secondary-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-500);
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-600);
+}
+
+.secondary-btn {
+  background-color: none;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid var(--primary-500);  
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-300);
+  border: none;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (min-width: 768px) {
+
+  .primary-btn {
+    line-height: 0;
+    padding: 0 48px;
+  }
+
+}

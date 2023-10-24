@@ -10,9 +10,13 @@ footer {
   margin-bottom: 48px;
 }
 
+.social a:not(:first-child) {
+  margin-left: 24px;
+}
+
 .social img {
+  display: block;
   height: 24px;
-  padding: 0 12px;
 }
 
 .copyright p {
@@ -35,11 +39,7 @@ footer {
   .social {
     order: 1;
     margin-bottom: 0;
-  }
-
-  .social img {
-    padding-left: 24px;
-    padding-right: 0;
+    justify-content: flex-end;
   }
 
   .copyright p {
@@ -52,6 +52,10 @@ footer {
 
   footer {
     padding: 0 80px;
+  }
+
+  .social a img {
+    margin-left: 16px;
   }
 
 }
