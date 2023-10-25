@@ -165,16 +165,16 @@ textarea:focus {
     margin-bottom: 32px;
   }
 
-  .btn-primary {
+  .btn-primary-contact {
     margin: 0 0 0 32px;
     padding: 0 48px;
   }
 
-  .btn-secondary {
+  .btn-secondary-contact {
     display: none;
   }
 
-  .btn-tertiary {
+  .btn-tertiary-contact {
     display: flex;
     order: -1;
   }

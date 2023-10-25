@@ -13,13 +13,16 @@
   margin-bottom: 24px
 }
 
+.about-title-container :is(h3,h4) {
+  text-align: center;
+}
+
 .about-title-container h3 {
   margin-bottom: 8px;
 }
 
 .about-title-container h4 {
   margin-bottom: 24px;
-  text-align: center;
 }
 
 .social-about {
@@ -31,9 +34,14 @@
   margin: 0 12px 0 12px;
 }
 
-.download {
+.btn-download {
   width: 60%;
-  max-width: 320px;
+  width: 300px;
+}
+
+.btn-download img {
+  height: 16px;
+  margin-left: 8px;
 }
 
 /* DESCRIPTION */
@@ -169,29 +177,32 @@ hr {
   }
 
   .about-profile-img {
-    height: 160px;
-    margin-right: 48px;
+    height: 200px;
+    margin: 0 48px 0 0;
   }
 
   .about-title-left {
     justify-content: flex-start;
   }
 
+  .about-title-container :is(h3,h4) {
+  text-align: left;
+}
+
   .about-title-container h3 {
     margin-bottom: 12px;
   }
 
-  .about-title-container h4 {
-    margin-bottom: 24px;
-  }
-
   .social-about {
-    margin-bottom: 32px;
     justify-content: flex-start;
   }
 
-  .about-title-container input {
-    display: none;
+  .social-about img {
+    margin: 0 24px 0 0;
+  }
+
+  .btn-download {
+    width: 250px;
   }
 
   /* DESCRIPTION */
