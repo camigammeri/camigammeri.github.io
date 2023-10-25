@@ -7,7 +7,9 @@ nav {
   padding: 16px;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 100;
+  transition: top 0.3s;
 }
 
 nav img {
@@ -26,6 +28,10 @@ nav ul {
 nav ul li a {
   color: var(--neutral-900);
   margin-left: 32px;
+}
+
+.nav-up {
+  top: -92px;
 }
 
 /* BREAKPOINTS */
