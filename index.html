@@ -107,8 +107,9 @@
         <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
         <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
         <div class="btn-container">
-          <input type="submit" value="Send" class="primary-btn">
-          <input type="reset" value="Cancel" class="secondary-btn">
+          <button type="submit" class="btn-primary btn-primary-contact">Send</button>
+          <button type="reset" class="btn-secondary">Cancel</button> <!--FOR MOBILE VERSION-->
+          <button type="reset" class="btn-tertiary">Cancel</button> <!--FOR DESKTOP VERSION-->
         </div>
       </form>
     </div>

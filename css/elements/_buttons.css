@@ -1,38 +1,46 @@
-.primary-btn,
-.secondary-btn {
+button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 44px;
-  border-radius: 4px;
   cursor: pointer;
-}
-
-.primary-btn {
-  background-color: var(--primary-500);
   font-size: 16px;
-  font-weight: 600;
-  border-bottom: none;
+  color: var(--neutral-900);
 }
 
-.primary-btn:hover {
+.btn-primary,
+.btn-secondary {
+  height: 44px;
+  border-radius: 4px; 
+}
+
+.btn-primary {
+  background-color: var(--primary-500);
+  font-weight: 600;
+  border: none;
+}
+
+.btn-primary:hover {
   background-color: var(--primary-400);
 }
 
-.secondary-btn {
-  background-color: none;
-  font-size: 16px;
+.btn-secondary {
+  background-color: var(--primary-100);
   font-weight: 500;
   border: 2px solid var(--primary-500);  
 }
 
-.secondary-btn:hover {
+.btn-secondary:hover {
   background-color: var(--primary-200);
+}
+
+.btn-tertiary {
+  border: none;
+  background: none;
 }
 
 /* BREAKPOINTS */
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
 
   .primary-btn {
     line-height: 0;

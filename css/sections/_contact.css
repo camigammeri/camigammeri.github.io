@@ -85,6 +85,14 @@ textarea:focus {
   flex-direction: column;
 }
 
+.btn-primary-contact {
+  margin-bottom: 12px;
+}
+
+.btn-tertiary {
+  display: none;
+}
+
 /* BREAKPOINTS */
 
 @media only screen and (min-width: 768px) {
@@ -129,7 +137,7 @@ textarea:focus {
     max-width: 364px;
   }
 
-  form > input {
+  form input {
     margin-bottom: 24px;
   }
 
@@ -153,27 +161,23 @@ textarea:focus {
     justify-content: flex-end;
   }
 
-  .btn-container input {
-    margin-bottom: 0;
-  }
-
   textarea {
     margin-bottom: 32px;
   }
 
-  .primary-btn {
-    margin-left: 32px;
+  .btn-primary {
+    margin: 0 0 0 32px;
+    padding: 0 48px;
   }
 
-  .secondary-btn {
-    border: none;
+  .btn-secondary {
+    display: none;
+  }
+
+  .btn-tertiary {
+    display: flex;
     order: -1;
   }
-
-  .secondary-btn:hover {
-    background: none;
-  }
-
 }
 
 @media only screen and (min-width: 992px) {

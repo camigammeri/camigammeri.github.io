@@ -19,19 +19,21 @@
 
 .about-title-container h4 {
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .social-about {
   margin-bottom: 32px;
+  justify-content: center;
 }
 
 .social-about img {
-  margin-right: 24px;
+  margin: 0 12px 0 12px;
 }
 
 .download {
-  width: 70%;
-  margin: 0;
+  width: 60%;
+  max-width: 320px;
 }
 
 /* DESCRIPTION */
