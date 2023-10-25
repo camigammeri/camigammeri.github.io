@@ -3,6 +3,7 @@
   padding: 48px 16px;
   margin-bottom: 160px;
   background-color: var(--primary-100);
+  scroll-margin-top: 120px;
 }
 
 .contact-container {
@@ -51,6 +52,7 @@ input, textarea {
   color: var(--neutral-900);
   padding: 6px 8px;
   font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
 input {
