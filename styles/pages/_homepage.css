@@ -114,7 +114,7 @@
 
 @media only screen and (min-width: 768px) {
   
-  /* HOMEPAGE MAIN SECTION */
+  /* HOMEPAGE TITLE SECTION */
 
   .homepage-title-containter {
     flex-direction: row;
@@ -184,7 +184,7 @@
 
 @media only screen and (min-width: 992px) {
 
-  /* HOMEPAGE MAIN SECTION */
+  /* HOMEPAGE TITLE SECTION */
 
   .homepage-title-containter {
     padding: 0 80px;

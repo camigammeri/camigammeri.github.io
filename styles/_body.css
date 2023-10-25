@@ -17,33 +17,6 @@ body {
   position: relative;
 }
 
-/* TYPESCALE */
-
-h1, h2, h3, h4 {
-  letter-spacing: -0.8px;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 600;
-}
-
-h5 {
-  font-size: 18px;
-  font-weight: 400;  
-}
-
-
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-strong {
-  font-weight: 600;
-}
-
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {

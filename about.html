@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" type="image/x-icon" href="assets\img\cowgirl-logo.png">
 </head>
 
@@ -18,9 +18,9 @@
 
 <header>
   <nav>
-    <img src="assets\img\illustrations\cowgirl-logo.png" alt="logo">
+    <a href="index.html"><img src="assets\img\illustrations\cowgirl-logo.png" alt="logo"></a>
     <ul>
-      <li><a href="index.html">Work</a></li>
+      <li><a href="index.html#work-section">Work</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="#contact-section">Contact</a></li>
     </ul>
@@ -35,17 +35,20 @@
 
     <img src="assets/img/illustrations/cowgirl-logo.png" class="about-profile-img" alt="">
 
-    <h3>Camilla Gammeri</h3>
-    <h5>UX/UI Designer</h5>
+    <div class="about-title-left">
 
-    <div class="social social-about">
-      <a href="https://t.me/camiholmes"><img src="assets\img\social-icons\telegram.png" alt="telegram-icon"></a>
-      <a href="https://www.linkedin.com/in/camilla-gammeri/"><img src="assets\img\social-icons\linkedIn.png"
-          alt="linkedin-icon"></a>
-      <a href="https://github.com/fiutos"><img src="assets\img\social-icons\github.png" alt="github-icon"></a>
-      <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8"><img
-          src="assets\img\social-icons\spotify.png" alt="spotify-icon"></a>
-      <a href="https://www.instagram.com/fiutos/"><img src="assets\img\social-icons\instagram.png" alt="instagram-icon"></a>
+      <h3 style="font-size: 32px;">Camilla Gammeri</h3>
+      <h4>UX/UI Designer</h4>
+
+      <div class="social social-about">
+        <a href="https://www.linkedin.com/in/camilla-gammeri/"><img src="assets\img\social-icons\linkedIn.png"
+            alt="linkedin-icon"></a>
+        <a href="https://github.com/fiutos"><img src="assets\img\social-icons\github.png" alt="github-icon"></a>
+        <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8"><img
+            src="assets\img\social-icons\spotify.png" alt="spotify-icon"></a>
+        <a href="https://www.instagram.com/fiutos/"><img src="assets\img\social-icons\instagram.png" alt="instagram-icon"></a>
+      </div>
+
     </div>
 
     <input type="submit" value="Download CV" class="primary-btn download">
@@ -57,47 +60,47 @@
   <section class="description-containter">
     
     <!--BIO-->
-    <div class="chapter bio">
-      <hr>
+    <hr>
+    <div class="chapter">
       <h3>This is me, briefly</h3>
-      <p>According to the Myers-Briggs test, I’m a Mediator (INFP): <strong>intuitive</strong>, <strong>creative</strong>, and moved by high ideals. I agree, and I would add obsessed with <strong>details</strong> and incredibly <strong>curious</strong>.</p>
-      <p>I graduated in <strong>Economics and Management</strong>, but I soon after understood that I truly feel fulfilled as a <strong>UX/UI Designer</strong>, because I can combine creative ideas, design guidelines and psychological principles to meet the users' needs.</p>
-      <p>As a good multipotentialite, I’m also getting keen on <strong>Frontend Development</strong>. I must say that being able to design and code my own things is incredibly satisfying.</p>
+      <div class="left-column bio-p">
+        <p>According to the Myers-Briggs test, I’m a Mediator (INFP): <strong>intuitive</strong>, <strong>creative</strong>, and moved by high ideals. I agree, and I would add obsessed with <strong>details</strong> and incredibly <strong>curious</strong>.</p>
+        <p>I graduated in <strong>Economics and Management</strong>, but I soon after understood that I truly feel fulfilled as a <strong>UX/UI Designer</strong>, because I can combine creative ideas, design guidelines and psychological principles to meet the users' needs.</p>
+        <p>As a good multipotentialite, I’m also getting keen on <strong>Frontend Development</strong>. I must say that being able to design and code my own things is incredibly satisfying.</p>
+      </div>
     </div>
 
     <!--SERVICES-->
-    <div class="chapter services">
-      <hr>
+    <hr>
+    <div class="chapter">
       <h3>I will help you with</h3>
-
-      <div class="service">
-        <img src="assets\img\services-icons\user-research.png" alt="magnifying-glass-icon">
-        <h5>User research</h5>
+      <div class="left-column services">
+        <div class="service">
+          <img src="assets\img\services-icons\user-research.png" alt="magnifying-glass-icon">
+          <h5>User research</h5>
+        </div>
+        <div class="service">
+          <img src="assets\img\services-icons\prototyping.png" alt="prototype-icon">
+          <h5>Wireframing & Prototyping</h5>
+        </div>
+        <div class="service">
+          <img src="assets\img\services-icons\user-testing.png" alt="test-icon">
+          <h5>User testing</h5>
+        </div>
+        <div class="service">
+          <img src="assets\img\services-icons\frontend-dev.png" alt="code-icon">
+          <h5>Frontend development</h5>
+        </div>
+        <div class="ellipse-services"></div>
       </div>
-
-      <div class="service">
-        <img src="assets\img\services-icons\prototyping.png" alt="prototype-icon">
-        <h5>Wireframing & Prototyping</h5>
-      </div>
-
-      <div class="service">
-        <img src="assets\img\services-icons\user-testing.png" alt="test-icon">
-        <h5>User testing</h5>
-      </div>
-
-      <div class="service">
-        <img src="assets\img\services-icons\frontend-dev.png" alt="code-icon">
-        <h5>Frontend development</h5>
-      </div>
-
-      <div class="ellipse-services"></div>
+      
     </div>
 
     <!--SOFTWARE-->
+    <hr>
     <div class="chapter">
-      <hr>
       <h3>This is my toolkit</h3>
-      <div class="software-icons">
+      <div class="left-column software-icons">
         <img src="assets/img/software-icons/figma.svg" alt="">
         <img src="assets\img\software-icons\illustrator.svg" alt="">
         <img src="assets\img\software-icons\html.svg" alt="">
@@ -107,18 +110,14 @@
     </div>
 
     <!--HOBBIES-->
+    <hr>
     <div class="chapter">
-      <hr>
       <h3>Other things I love</h3>
-      <!--<div class="hobbies-icons">
-        <img src="assets\img\hobbies-icons\travel.png" alt="">
-        <img src="assets\img\hobbies-icons\photo.png" alt="">
-        <img src="assets\img\hobbies-icons\saddle.png" alt="">
-        <img src="assets\img\hobbies-icons\music.png" alt="">
-      </div>-->
-      <p>I can't live without <strong>traveling</strong>. I often travel alone, and I’ve much fun designing my own trips. When I’m on the road, I become a <strong>photographer</strong> - you can see my photos on Instagram. <strong>Horse riding</strong> has been part of my life since a very young age. I mostly prefer peacefulness, but I gladly bend the rules to go to <strong>The Killers</strong>' gigs, my favourite band.</p>
-      <div class="travel-illustration">
-        <img src="assets/img/illustrations/travel-illustration.png" alt="">
+      <div class="left-column">
+        <p>I can't live without <strong>traveling</strong>. I often travel alone, and I’ve much fun designing my own trips. When I’m on the road, I become a <strong>photographer</strong> - you can see my photos on <a href="https://www.instagram.com/fiutos/" target="_blank">Instagram</a>. <strong>Horse riding</strong> has been part of my life since a very young age. I mostly prefer peacefulness, but I gladly bend the rules to go to <strong>The Killers</strong>' gigs, my favourite band.</p>      
+        <div class="travel-illustration">
+          <img src="assets/img/illustrations/travel-illustration.png" alt="">
+        </div>
       </div>
     </div>
 
@@ -152,14 +151,13 @@
 <!-- FOOTER -->
 
 <footer>
-  <div class="social">
-    <a href="https://t.me/camiholmes"><img src="assets\img\social-icons\telegram.png" alt="telegram-icon"></a>
-    <a href="https://www.linkedin.com/in/camilla-gammeri/"><img src="assets\img\social-icons\linkedIn.png"
+  <div class="social social-footer">
+    <a href="https://www.linkedin.com/in/camilla-gammeri/" target="_blank"><img src="assets\img\social-icons\linkedIn.png"
         alt="linkedin-icon"></a>
-    <a href="https://github.com/fiutos"><img src="assets\img\social-icons\github.png" alt="github-icon"></a>
-    <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8"><img
+    <a href="https://github.com/fiutos" target="_blank"><img src="assets\img\social-icons\github.png" alt="github-icon"></a>
+    <a href="https://open.spotify.com/user/fiutosadventure?si=ce08bebfd1ea4ab8" target="_blank"><img
         src="assets\img\social-icons\spotify.png" alt="spotify-icon"></a>
-    <a href="https://www.instagram.com/fiutos/"><img src="assets\img\social-icons\instagram.png"
+    <a href="https://www.instagram.com/fiutos/" target="_blank"><img src="assets\img\social-icons\instagram.png"
         alt="instagram-icon"></a>
   </div>
   <div class="copyright">

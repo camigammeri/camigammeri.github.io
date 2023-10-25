@@ -2,7 +2,7 @@
   display: block;
   padding: 48px 16px;
   margin-bottom: 160px;
-  background-color: #FDFAF6;
+  background-color: var(--primary-100);
 }
 
 .contact-container {
@@ -45,10 +45,12 @@ form {
 }
 
 input, textarea {
-  border: none;
-  border-bottom: 2px solid var(--primary-500);
+  border: 2px solid var(--primary-500);
+  border-radius: 4px;
   background: none;
   color: var(--neutral-900);
+  padding: 6px 8px;
+  font-family: 'Inter', sans-serif;
 }
 
 input {
@@ -59,25 +61,26 @@ input {
 textarea {
   min-height: 64px;
   margin-bottom: 24px;
-  color: var(--neutral-700);
-  font-family: 'Inter', sans-serif;
-}
-
-input, textarea:focus {
-  outline-width: 0;
+  color: var(--neutral-900);
+  resize: vertical;
+  overflow: auto;
 }
 
 ::placeholder {
   color: var(--neutral-700);
 }
 
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border: 2px solid var(--primary-700);
+  box-shadow: 0 0 12px var(--primary-300);
+  background-color: var(--primary-50);
+}
+
 .btn-container {
   display: flex;
   flex-direction: column;
-}
-
-.secondary-btn {
-  margin-bottom: 0;  
 }
 
 /* BREAKPOINTS */
@@ -128,6 +131,21 @@ input, textarea:focus {
     margin-bottom: 24px;
   }
 
+  input, textarea {
+    border: none;
+    border-bottom: 2px solid var(--primary-500);
+    border-radius: 0;
+    padding-left: 0;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none !important;
+    border: none;
+    border-bottom: 2px solid var(--primary-700);
+    padding-left: 8px;
+  }
+
   .btn-container {
     flex-direction: row;
     justify-content: flex-end;
@@ -151,7 +169,6 @@ input, textarea:focus {
   }
 
   .secondary-btn:hover {
-    text-decoration: underline;
     background: none;
   }
 

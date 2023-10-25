@@ -1,0 +1,328 @@
+/* ABOUT TITLE SECTION */
+
+.about-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 auto 80px auto;
+}
+
+.about-profile-img {
+  height: 120px;
+  margin-bottom: 24px
+}
+
+.about-title-container h3 {
+  margin-bottom: 8px;
+}
+
+.about-title-container h4 {
+  margin-bottom: 24px;
+}
+
+.social-about {
+  margin-bottom: 32px;
+}
+
+.social-about img {
+  margin-right: 24px;
+}
+
+.download {
+  width: 70%;
+  margin: 0;
+}
+
+/* DESCRIPTION */
+
+.description-containter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 16px;
+  margin: 0 auto 120px auto;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid var(--neutral-300);
+  margin: 0 auto 24px auto;
+}
+
+.chapter {
+  width: 100%;
+}
+
+.description-containter .chapter:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.chapter h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.bio-p p:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.chapter h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* SERVICES */
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px 16px 16px 0;
+  background: white;
+  border-radius: 8px;
+}
+
+.service:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.service img {
+  width: 40px;
+  margin-right: 16px;
+}
+
+.services {
+  position: relative;
+}
+
+.ellipse-services {
+  background: var(--primary-200);
+  filter: blur(80px);
+  height: 420px;
+  width: 420px;
+  border-radius: 420px;
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  z-index: -1;
+}
+
+/* SOFTWARE */
+
+.software-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  flex-wrap: wrap;
+}
+
+.software-icons img {
+  height: 40px;
+}
+
+.software-icons img:not(:last-child) {
+  margin-right: 24px;
+}
+
+/* HOBBIES */
+
+.hobbies-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hobbies-icons img {
+  height: 40px;
+}
+
+.travel-illustration {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.travel-illustration img {
+  height: 286px;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  /* ABOUT TITLE SECTION */
+
+  .about-title-container {
+    padding: 0 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .about-profile-img {
+    height: 160px;
+    margin-right: 48px;
+  }
+
+  .about-title-left {
+    justify-content: flex-start;
+  }
+
+  .about-title-container h3 {
+    margin-bottom: 12px;
+  }
+
+  .about-title-container h4 {
+    margin-bottom: 24px;
+  }
+
+  .social-about {
+    margin-bottom: 32px;
+    justify-content: flex-start;
+  }
+
+  .about-title-container input {
+    display: none;
+  }
+
+  /* DESCRIPTION */
+
+  .description-containter {
+    padding: 0 32px;
+  }
+
+  .description-containter .chapter:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  hr {
+    margin-bottom: 48px;
+  }
+
+  .chapter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .chapter h3 {
+    display: flex;
+    flex-shrink: 0;
+    width: 200px;
+    margin-right: 64px;
+    margin-bottom: 0;
+  }
+
+  .left-column {
+    width: 100%;
+    min-width: 400px;
+    max-width: 600px;
+    margin-left: auto;
+  }
+
+  /* SERVICES */
+
+  .service img {
+    width: 48px;
+  }
+
+  .ellipse-services {
+    height: 460px;
+    width: 460px;
+    border-radius: 460px;
+    top: -40px;
+    right: -80px;
+  }
+
+  /* SOFTWARE */
+
+  .software-icons img {
+    height: 48px;
+  }
+
+  /* HOBBIES */
+
+  .travel-illustration {
+    justify-content: flex-start;
+  }
+
+  .travel-illustration img {
+    height: 320px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* ABOUT TITLE SECTION */
+
+  .about-title-container {
+    padding: 0 88px;
+    margin-bottom: 160px;
+  }
+
+  /* DESCRIPTION */
+
+  .description-containter {
+    padding: 0 88px;
+    margin-bottom: 220px;
+  }
+
+  .description-containter .chapter:not(:last-child) {
+    margin-bottom: 120px;
+  }
+
+  hr {
+    margin-bottom: 56px;
+  }
+
+  .chapter h3 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    width: 400px;
+  }
+
+  .left-column {
+    max-width: 700px;
+  }
+
+  /* SERVICES */
+
+  .service img {
+    width: 56px;
+  }
+
+  .ellipse-services {
+    height: 520px;
+    width: 520px;
+    border-radius: 520px;
+    filter: blur(100px);    
+    top: -120px;
+    right: -200px;
+  }
+
+  /* SOFTWARE */
+
+  .software-icons img {
+    height: 56px;
+  }
+
+  /* HOBBIES */
+
+  .travel-illustration {
+    margin-top: 80px;
+  }
+
+  .travel-illustration img {
+    height: 400px;
+  }
+
+}
