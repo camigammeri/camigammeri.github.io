@@ -1,26 +1,32 @@
-/* SHOW/HIDE NAV ON SCROLL */
+// SHOW/HIDE NAV ON SCROLL
 
-const nav = document.querySelector("nav");
+/*const nav = document.querySelector("nav");
 const navHeight = 92;
-// the point the scroll starts from (in px)
-let lastScrollY = 0;
-// how far to scroll (in px) before triggering
-const delta = 5;
 
-// function to run on scrolling
+// The point the scroll starts from (in px)
+let lastScrollY = 0;
+
+// How far to scroll (in px) before triggering
+const delta = 1;
+
+// Function to run on scrolling
 function scrolled() {
   let sy = window.scrollY;
-  // only trigger if scrolled more than delta
+
+  // Only trigger if scrolled more than delta
   if (Math.abs(lastScrollY - sy) > delta) {
-    // scroll down -> hide nav bar
+
+    // Scroll down -> hide nav bar
     if (sy > lastScrollY && sy > navHeight) {
       nav.classList.add("nav-up");
     }
-    // scroll up -> show nav bar
+
+    // Scroll up -> show nav bar
     else if (sy < lastScrollY) {
       nav.classList.remove("nav-up");
     }
-    // update current scroll point
+
+    // Update current scroll point
     lastScrollY = sy;
   }
 }
@@ -36,4 +42,16 @@ setInterval(function () {
     scrolled();
     didScroll = false;
   }
-}, 250);
+}, 250)*/
+
+// NAV COLOR CHANGE ON SCROLL
+
+document.addEventListener('scroll', () => {
+  const header = document.querySelector('nav');
+
+  if (window.scrollY > 0) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
