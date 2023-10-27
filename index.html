@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/x-icon" href="assets\img\cowgirl-logo.png">
+
 </head>
 
 <body>
@@ -111,7 +112,7 @@
         <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''"
           onblur="this.placeholder='Message'"></textarea>
         <div class="btn-container">
-          <button type="submit" class="btn-primary btn-primary-contact">Send</button>
+          <button onclick="sendMail()" class="btn-primary btn-primary-contact">Send</button>
           <button type="reset" class="btn-secondary btn-secondary-contact">Cancel</button> <!--FOR MOBILE VERSION-->
           <button type="reset" class="btn-tertiary btn-tertiary-contact">Cancel</button> <!--FOR DESKTOP VERSION-->
         </div>
@@ -140,6 +141,12 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("v1x759oXLraFurP1M"); // Account Public Key
+  })();
+</script>
 
 </body>
 

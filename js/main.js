@@ -1,4 +1,4 @@
-// SHOW/HIDE NAV ON SCROLL
+/*// SHOW/HIDE NAV ON SCROLL
 
 const nav = document.querySelector("nav");
 nav.classList.add("nav-up");
@@ -43,7 +43,7 @@ setInterval(function () {
     scrolled();
     didScroll = false;
   }
-}, 250)
+}, 250)*/
 
 // NAV COLOR CHANGE ON SCROLL
 
@@ -56,3 +56,18 @@ document.addEventListener('scroll', () => {
     header.classList.remove('scrolled');
   }
 });
+
+// EMAILJS
+
+function sendMail() {
+
+  var params = {
+    name: document.getElementById("#name").value,
+    email: document.getElementById("#email").value,
+    message: document.getElementById("#message").value,
+  };
+
+  emailjs.send("service_kax7wo9", "template_zahmm6e", params).then(function (res) {
+    alert("Success" + res.status);
+  })
+}
