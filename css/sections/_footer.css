@@ -16,7 +16,6 @@ footer {
 
 .social img:hover { 
   transform: scale(1.1);
-  box-shadow: 0 0 16px var(--primary-500);
 }
 
 .social-footer {
