@@ -28,6 +28,11 @@ a {
   }
 }
 
+nav ul li a:active {
+  top: 1px;
+}
+
+
 /* HOVER LINK NEL TESTO */
 
 p > a::before {
@@ -49,5 +54,5 @@ p > a::before {
     bottom: 0;
     height: 100%;
   }
-  
+
 }
