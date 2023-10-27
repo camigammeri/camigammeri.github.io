@@ -5,11 +5,24 @@
   <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
+
   <link rel="icon" type="image/x-icon" href="assets\img\cowgirl-logo.png">
+
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("v1x759oXLraFurP1M");
+    })();
+  </script>
 
 </head>
 
@@ -112,7 +125,7 @@
         <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''"
           onblur="this.placeholder='Message'"></textarea>
         <div class="btn-container">
-          <button onclick="sendMail()" type="submit" class="btn-primary btn-primary-contact">Send</button>
+          <button class="btn-primary btn-primary-contact" onclick="sendMail()">Send</button>
           <button type="reset" class="btn-secondary btn-secondary-contact">Cancel</button> <!--FOR MOBILE VERSION-->
           <button type="reset" class="btn-tertiary btn-tertiary-contact">Cancel</button> <!--FOR DESKTOP VERSION-->
         </div>
@@ -139,14 +152,6 @@
     <p>Copyright © 2023 Camilla Gammeri. All rights reserved.</p>
   </div>
 </footer>
-
-<script src="js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script>
-  (function () {
-    emailjs.init("v1x759oXLraFurP1M"); // Account Public Key
-  })();
-</script>
 
 </body>
 

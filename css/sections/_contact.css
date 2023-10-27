@@ -159,6 +159,7 @@ textarea:focus {
   .btn-container {
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
   }
 
   textarea {
@@ -177,9 +178,30 @@ textarea:focus {
   .btn-tertiary-contact {
     display: flex;
     order: -1;
+    position: relative;
   }
+  
+  @media (hover: hover) {
 
-    
+    .btn-tertiary-contact {
+      transition: color .2s ease-in-out;
+      
+        &::before {
+          content: '';
+          position: absolute;
+          top: 100%;
+          width: 100%;
+          height: 2px;
+          background-color: var(--primary-700);
+          transform: scaleX(0);
+          transition: transform .2s ease-in-out;
+        }
+      
+        &:hover::before {
+          transform: scaleX(1);
+        }
+    }
+  }
 }
 
 @media only screen and (min-width: 992px) {

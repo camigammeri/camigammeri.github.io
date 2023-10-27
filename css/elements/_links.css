@@ -1,6 +1,5 @@
 a {
   text-decoration: none;
-  text-decoration: none;
   color: inherit;
   position: relative;
 }
@@ -27,11 +26,6 @@ a {
       }
   }
 }
-
-nav ul li a:active {
-  top: 1px;
-}
-
 
 /* HOVER LINK NEL TESTO */
 

@@ -38,6 +38,7 @@ button {
 }
 
 .btn-tertiary {
+  height: fit-content;
   border: none;
   background: none;
 }

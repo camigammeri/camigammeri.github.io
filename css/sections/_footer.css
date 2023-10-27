@@ -18,10 +18,6 @@ footer {
   transform: scale(1.1);
 }
 
-.social img:active {
-  top: 5px;
-}
-
 .social-footer {
   justify-content: center;
   margin-bottom: 48px;
