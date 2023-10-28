@@ -13,17 +13,6 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" type="image/x-icon" href="assets\img\cowgirl-logo.png">
-
-  <script src="js/main.js"></script>
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("v1x759oXLraFurP1M");
-    })();
-  </script>
-
 </head>
 
 <body>
@@ -31,7 +20,7 @@
 <!-- HEADER -->
 
 <header>
-  <nav class="nav-up">
+  <nav>
     <a href="index.html"><img src="assets\img\illustrations\cowgirl-logo.png" alt="logo"></a>
     <ul>
       <li><a href="#work-section">Work</a></li>
@@ -117,7 +106,16 @@
         <p>Want to work together an create an awesome digital product? I can’t wait to hear about your project. Fill the
           form and I’ll be back to you within 48 hours.</p>
       </div>
-      <form>
+
+      <form action="https://formsubmit.co/537a7364bdb8d7343f891eb712a12b17" method="POST">
+
+        <!--HONEYPOT-->
+        <input type="text" name="_honey" style="display: none;">
+        <!--DISABLE CAPTCHA-->
+        <input type="hidden" name="_captcha" value="false">
+        <!--SUCCESS PAGE DA LINKARE IN VALUE
+        <input type="hidden" name="_next" value="">-->
+
         <input type="text" id="name" name="name" placeholder="Name" required onfocus="this.placeholder=''"
           onblur="this.placeholder='Name'">
         <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder=''"
@@ -125,7 +123,7 @@
         <textarea id="message" name="message" placeholder="Message" required onfocus="this.placeholder=''"
           onblur="this.placeholder='Message'"></textarea>
         <div class="btn-container">
-          <button class="btn-primary btn-primary-contact" onclick="sendMail()">Send</button>
+          <button type="submit" class="btn-primary btn-primary-contact">Send</button>
           <button type="reset" class="btn-secondary btn-secondary-contact">Cancel</button> <!--FOR MOBILE VERSION-->
           <button type="reset" class="btn-tertiary btn-tertiary-contact">Cancel</button> <!--FOR DESKTOP VERSION-->
         </div>
@@ -152,6 +150,8 @@
     <p>Copyright © 2023 Camilla Gammeri. All rights reserved.</p>
   </div>
 </footer>
+
+<script src="js/main.js"></script>
 
 </body>
 

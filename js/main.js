@@ -1,7 +1,6 @@
-/*// SHOW/HIDE NAV ON SCROLL
+// SHOW/HIDE NAV ON SCROLL
 
 const nav = document.querySelector("nav");
-nav.classList.add("nav-up");
 const navHeight = 92;
 
 // The point the scroll starts from (in px)
@@ -43,7 +42,7 @@ setInterval(function () {
     scrolled();
     didScroll = false;
   }
-}, 250)*/
+}, 250)
 
 // NAV COLOR CHANGE ON SCROLL
 
@@ -57,7 +56,7 @@ document.addEventListener('scroll', () => {
   }
 });
 
-// EMAILJS
+/* EMAILJS
 
 function sendMail() {
   var params = {
