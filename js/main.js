@@ -7,7 +7,7 @@ const navHeight = 92;
 let lastScrollY = 0;
 
 // How far to scroll (in px) before triggering
-const delta = 1;
+const delta = 92;
 
 // Function to run on scrolling
 function scrolled() {
@@ -55,27 +55,3 @@ document.addEventListener('scroll', () => {
     header.classList.remove('scrolled');
   }
 });
-
-/* EMAILJS
-
-function sendMail() {
-  var params = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    message: document.getElementById("message").value,
-  };
-
-const serviceID = "service_kax7wo9";
-const templateID = "template_zahmm6e";
-
-emailjs
-  .send(serviceID, templateID, params)
-  .then((res) => {
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-    console.log(res);
-    alert("Your message sent successfully!!");
-  })
-  .catch((err) => console.log(err));
-}
