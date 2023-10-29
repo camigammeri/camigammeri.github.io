@@ -27,13 +27,14 @@
 }
 
 .contact-title h2 {
+  font-family: 'anisette-std', sans-serif;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   padding-right: 16px;
 }
 
 .contact-title img {
-  height: 32px;
+  height: 40px;
 }
 
 .contact-copy p {

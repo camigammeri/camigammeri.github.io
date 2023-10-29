@@ -72,8 +72,9 @@ hr {
 }
 
 .chapter h3 {
+  font-family: 'anisette-std', sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 24px;
 }
 
