@@ -7,7 +7,7 @@ const navHeight = 92;
 let lastScrollY = 0;
 
 // How far to scroll (in px) before triggering
-const delta = 92;
+const delta = 24;
 
 // Function to run on scrolling
 function scrolled() {

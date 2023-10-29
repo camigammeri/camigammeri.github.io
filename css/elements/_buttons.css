@@ -10,7 +10,8 @@ button {
 .btn-primary,
 .btn-secondary {
   height: 44px;
-  border-radius: 4px; 
+  border-radius: 4px;
+  transition: transform 0.3s linear; 
 }
 
 .btn-primary {
@@ -41,4 +42,9 @@ button {
   height: fit-content;
   border: none;
   background: none;
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+  transform: scale(0.9);
 }
