@@ -1,24 +1,18 @@
-h1, h2, h3, h4 {
+h1, h2, h3 {
   letter-spacing: -0.8px;
-}
-
-h3 {
-  font-size: 24px;
   font-weight: 600;
 }
 
-h4 {
-  font-size: 20px;
-  font-weight: 400;
+h1, h2 {
+  font-family: 'anisette-std', sans-serif;
 }
 
-h5 {
-  font-size: 18px;
-  font-weight: 400;  
+h3 {
+  font-family: 'inter', sans-serif;
 }
-
 
 p {
+  font-family: 'inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;

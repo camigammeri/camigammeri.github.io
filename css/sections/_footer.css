@@ -28,7 +28,7 @@ footer {
 }
 
 .copyright p {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -52,10 +52,6 @@ footer {
 
   .social-footer a {
     margin: 0 0 0 32px;
-  }
-
-  .copyright p {
-    font-size: 12px;
   }
   
 }
