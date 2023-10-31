@@ -20,6 +20,7 @@
 }
 
 .about-title-container h1 {
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
@@ -75,6 +76,7 @@ hr {
 
 .chapter h2 {
   font-size: 24px;
+  font-weight: 700;
   margin-bottom: 24px;
 }
 
@@ -221,7 +223,7 @@ hr {
   .chapter h2 {
     display: flex;
     flex-shrink: 0;
-    width: 200px;
+    width: 220px;
     margin-right: 64px;
     margin-bottom: 0;
   }
@@ -285,9 +287,9 @@ hr {
   }
 
   .chapter h2 {
-    font-size: 40px;
+    font-size: 32px;
     letter-spacing: -1px;
-    width: 400px;
+    width: 280px;
   }
 
   .left-column {
