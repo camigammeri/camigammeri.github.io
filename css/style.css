@@ -8,7 +8,7 @@
 @import url("sections/_footer.css");
 @import url("sections/_contact.css");
 
-@import url("pages/_homepage.css");
+@import url("pages/_index.css");
 @import url("pages/_about.css");
 
 :root {
