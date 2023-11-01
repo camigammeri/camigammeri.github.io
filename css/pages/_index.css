@@ -74,10 +74,8 @@
   aspect-ratio: 16/9;
   width: 100%;
   margin-bottom: 16px;
-  overflow: hidden;
   cursor: pointer;
   filter: drop-shadow(4px 4px 8px rgba(48, 54, 65, 0.18));
-  z-index: 90;
 }
 
 .img-container img {
