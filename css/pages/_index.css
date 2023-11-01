@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 16px;
-  margin: 0 auto 120px auto;
+  margin: 0 auto 160px auto;
 }
 
 .homepage-title-copy {
@@ -22,7 +22,7 @@
 }
 
 .homepage-title-copy p {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   line-height: 1.6;
   text-align: center;
 }
@@ -77,6 +77,7 @@
   overflow: hidden;
   cursor: pointer;
   filter: drop-shadow(4px 4px 8px rgba(48, 54, 65, 0.18));
+  z-index: 90;
 }
 
 .img-container img {

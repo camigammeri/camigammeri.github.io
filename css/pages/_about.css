@@ -39,7 +39,7 @@
 }
 
 .btn-download {
-  width: 280px;
+  width: 260px;
   margin: 0 auto 0 auto;
 }
 
@@ -55,7 +55,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0 16px;
-  margin: 0 auto 120px auto;
+  margin: 0 auto 160px auto;
 }
 
 hr {
@@ -84,11 +84,6 @@ hr {
   margin-bottom: 12px;
 }
 
-.chapter .service p {
-  font-size: 18px;
-  font-weight: 600;
-}
-
 /* SERVICES */
 
 .service {
@@ -108,7 +103,12 @@ hr {
 
 .service img {
   width: 48px;
-  margin-right: 16px;
+  margin-right: 20px;
+}
+
+.chapter .service p {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .services {
@@ -137,7 +137,7 @@ hr {
 }
 
 .software-icons img {
-  height: 48px;
+  height: 40px;
 }
 
 .software-icons img:not(:last-child) {
