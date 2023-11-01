@@ -179,8 +179,8 @@ hr {
   }
 
   .about-title-container :is(h1,p) {
-  text-align: left;
-}
+    text-align: left;
+  }
 
   .about-title-container h1 {
     margin-bottom: 12px;
@@ -203,6 +203,7 @@ hr {
 
   .description-containter {
     padding: 0 32px;
+    margin-bottom: 160px;
   }
 
   .description-containter .chapter:not(:last-child) {
@@ -319,7 +320,7 @@ hr {
   /* SOFTWARE */
 
   .software-icons img {
-    height: 60px;
+    height: 56px;
   }
 
   /* HOBBIES */
