@@ -92,7 +92,7 @@
   opacity: 0.9;
 }
 
-.project-description h3 {
+.project-description h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -183,7 +183,7 @@
     margin-bottom: 24px;
   }
 
-  .project-description h3 {
+  .project-description h2 {
     margin-bottom: 12px;
   }
 
