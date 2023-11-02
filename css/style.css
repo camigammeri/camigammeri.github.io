@@ -1,16 +1,16 @@
-@import url("_body.css");
+@import url("body/body.css");
 
-@import url("elements/_buttons.css");
-@import url("elements/_links.css");
-@import url("elements/_typescale.css");
+@import url("elements/buttons.css");
+@import url("elements/links.css");
+@import url("elements/typescale.css");
 
-@import url("sections/_header.css");
-@import url("sections/_footer.css");
-@import url("sections/_contact.css");
-@import url("sections/_form-success.css");
+@import url("sections/header.css");
+@import url("sections/footer.css");
+@import url("sections/contact.css");
+@import url("sections/form-success.css");
 
-@import url("pages/_index.css");
-@import url("pages/_about.css");
+@import url("pages/index.css");
+@import url("pages/about.css");
 
 :root {
 
