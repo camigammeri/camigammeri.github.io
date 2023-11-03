@@ -3,7 +3,7 @@
   padding: 48px 16px;
   margin-bottom: 160px;
   background-color: var(--primary-100);
-  scroll-margin-top: 60px;
+  scroll-margin-top: 64px;
 }
 
 .contact-container {
@@ -208,6 +208,7 @@ textarea:focus {
   .contact-background {
     padding: 140px 80px;
     margin: 0 80px 200px 80px;
+    scroll-margin-top: 80px;
   }
 
   .contact-container {

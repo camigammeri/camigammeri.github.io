@@ -55,7 +55,7 @@
   display: block;
   padding: 0 16px;
   margin-bottom: 160px;
-  scroll-margin-top: 60px;
+  scroll-margin-top: 80px;
 }
 
 .project {
@@ -231,6 +231,7 @@
   .projects-container {
     padding: 0 80px;
     margin-bottom: 260px;
+    scroll-margin-top: 96px;
   }
 
   .project {
