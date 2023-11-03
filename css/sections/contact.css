@@ -115,6 +115,7 @@ textarea:focus {
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 32px;
+    min-width: 300px;
     max-width: 412px;
   }
 
@@ -132,7 +133,7 @@ textarea:focus {
 
   form {
     width: 100%;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 364px;
   }
 
