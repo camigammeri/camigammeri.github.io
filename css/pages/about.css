@@ -30,7 +30,6 @@
 }
 
 .social-about {
-  margin-bottom: 32px;
   justify-content: center;
 }
 
@@ -38,7 +37,7 @@
   margin: 0 12px 0 12px;
 }
 
-.btn-download {
+/*.btn-download {
   width: 260px;
   margin: 0 auto 0 auto;
 }
@@ -46,7 +45,7 @@
 .btn-download img {
   height: 16px;
   margin-left: 8px;
-}
+}*/
 
 /* DESCRIPTION */
 
@@ -170,7 +169,6 @@ hr {
   }
 
   .about-profile-img {
-    height: 300px;
     margin: 0 64px 0 0;
   }
 
@@ -194,10 +192,10 @@ hr {
     margin: 0 24px 0 0;
   }
 
-  .btn-download {
+  /*.btn-download {
     width: 280px;
     margin-left: 0;
-  }
+  }*/
 
   /* DESCRIPTION */
 
@@ -268,7 +266,7 @@ hr {
   }
 
   .about-profile-img {
-    height: 340px;
+    height: 300px;
     margin: 0 80px 0 0;
   }
 
