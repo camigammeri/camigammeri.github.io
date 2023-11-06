@@ -236,7 +236,7 @@ hr {
     width: 460px;
     border-radius: 460px;
     top: -40px;
-    right: -80px;
+    right: -200px;
   }
 
   /* HOBBIES */
@@ -306,7 +306,6 @@ hr {
     border-radius: 520px;
     filter: blur(100px);    
     top: -120px;
-    right: -200px;
   }
 
   /* SOFTWARE */
