@@ -12,7 +12,6 @@
 .about-profile-img {
   height: 160px;
   margin-bottom: 24px;
-  /*filter: drop-shadow(4px 4px 4px rgba(48, 54, 65, 0.25));*/
 }
 
 .about-title-container :is(h1,p) {
@@ -165,6 +164,7 @@ hr {
   }
 
   .about-profile-img {
+    height: 260px;
     margin: 0 64px 0 0;
   }
 
@@ -261,7 +261,6 @@ hr {
   }
 
   .about-profile-img {
-    height: 300px;
     margin: 0 80px 0 0;
   }
 
