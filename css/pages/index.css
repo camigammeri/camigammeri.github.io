@@ -37,7 +37,7 @@
   height: 286px;
 }
 
-.ellipse {
+.ellipse-homepage {
   background: var(--primary-200);
   filter: blur(80px);
   height: 480px;
@@ -155,7 +155,7 @@
     height: 280px;
   }
 
-  .ellipse {
+  .ellipse-homepage {
     height: 640px;
     width: 640px;
     border-radius: 640px;
@@ -219,7 +219,7 @@
     height: 330px;
   }
 
-  .ellipse {
+  .ellipse-homepage {
     height: 800px;
     width: 800px;
     border-radius: 800px;

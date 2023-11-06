@@ -10,9 +10,9 @@
 }
 
 .about-profile-img {
-  height: 280px;
+  height: 160px;
   margin-bottom: 24px;
-  filter: drop-shadow(4px 4px 4px rgba(48, 54, 65, 0.25));
+  /*filter: drop-shadow(4px 4px 4px rgba(48, 54, 65, 0.25));*/
 }
 
 .about-title-container :is(h1,p) {
@@ -31,21 +31,17 @@
 
 .social-about {
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .social-about img {
   margin: 0 12px 0 12px;
 }
 
-/*.btn-download {
-  width: 260px;
+.btn-about {
+  width: 255px;
   margin: 0 auto 0 auto;
 }
-
-.btn-download img {
-  height: 16px;
-  margin-left: 8px;
-}*/
 
 /* DESCRIPTION */
 
@@ -192,10 +188,9 @@ hr {
     margin: 0 24px 0 0;
   }
 
-  /*.btn-download {
-    width: 280px;
+  .btn-about {
     margin-left: 0;
-  }*/
+  }
 
   /* DESCRIPTION */
 
