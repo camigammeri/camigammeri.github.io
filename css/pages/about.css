@@ -111,13 +111,13 @@ hr {
 
 .ellipse-services {
   background: var(--primary-200);
-  filter: blur(80px);
+  filter: blur(70px);
   height: 420px;
   width: 420px;
   border-radius: 420px;
   position: absolute;
   top: -80px;
-  right: -80px;
+  right: -120px;
   z-index: -1;
 }
 
