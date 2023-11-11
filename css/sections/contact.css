@@ -106,7 +106,7 @@ textarea:focus {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    max-width: 946px;
+    max-width: 840px;
   }
 
   .contact-copy {
@@ -203,7 +203,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1025px) {
 
   .contact-background {
     padding: 140px 80px;

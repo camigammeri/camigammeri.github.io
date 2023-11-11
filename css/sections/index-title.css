@@ -96,7 +96,7 @@
 
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1025px) {
 
   /* HOMEPAGE TITLE SECTION */
 
@@ -108,7 +108,7 @@
 
   .homepage-title-copy {
     min-width: 430px;
-    margin-right: 60px;
+    margin-right: 54px;
   }
 
   .homepage-title-copy h1 {
@@ -116,7 +116,7 @@
   }
 
   .homepage-illustration {
-    margin-left: 60px;
+    margin-left: 54px;
   }
 
   .illustration {
