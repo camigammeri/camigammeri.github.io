@@ -2,6 +2,6 @@
 
 This is my portfolio website coded with HTML&CSS.
 
-🔗 [Open website](https://camilla-gammeri.github.io/portfolio/)
+🔗 [Open website](https://camigammeri.github.io/)
 
 📁 [Download presentation](https://drive.google.com/file/d/1aCMIg_ua1StD61NwzbMJCiSjFMvJmDV7/view?usp=drive_link)
