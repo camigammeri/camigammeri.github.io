@@ -17,7 +17,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: white;
+  background-color: var(--primary-25);
 }
 
 nav img {
