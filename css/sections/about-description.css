@@ -107,7 +107,9 @@ hr {
   height: 286px;
 }
 
-@media only screen and (min-width: 768px) {
+/* BREAKPOINTS */
+
+@media screen and (min-width: 768px) {
 
   /* DESCRIPTION */
 
@@ -168,7 +170,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
 
   /* DESCRIPTION */
 

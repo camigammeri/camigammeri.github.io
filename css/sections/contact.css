@@ -93,7 +93,7 @@ textarea:focus {
 
 /* BREAKPOINTS */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .contact-background {
     padding: 80px 32px;
@@ -203,7 +203,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
 
   .contact-background {
     padding: 140px 80px;

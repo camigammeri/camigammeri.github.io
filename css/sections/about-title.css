@@ -42,7 +42,9 @@
   margin: 0 auto 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+/* BREAKPOINTS */
+
+@media screen and (min-width: 768px) {
   
   /* ABOUT TITLE SECTION */
 
@@ -85,7 +87,7 @@
 
 }
 
-@media only screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
 
   /* ABOUT TITLE SECTION */
 
