@@ -9,6 +9,10 @@
   margin: 0 auto 80px auto;
 }
 
+.about-title-left {
+  position: relative;
+}
+
 .about-profile-img {
   height: 160px;
   margin-bottom: 24px;
@@ -25,7 +29,15 @@
 
 .about-title-container p {
   font-size: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.scribbled-underline-about {
+  position: absolute;
+  z-index: -1;
+  width: 160px;
+  top: 69px;
+  left: 17%;
 }
 
 .social-about {
@@ -71,6 +83,12 @@
 
   .about-title-container h1 {
     margin-bottom: 12px;
+  }
+
+  .scribbled-underline-about {
+    width: 150px;
+    top: 73px;
+    left: 0%;
   }
 
   .social-about {
