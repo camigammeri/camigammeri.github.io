@@ -36,6 +36,14 @@
   text-align: center;
 }
 
+.scribbled-underline {
+  position: absolute;
+  z-index: -1;
+  width: 140px;
+  top: 81px;
+  left: 10%;
+}
+
 .homepage-illustration {
   display: flex;
   justify-content: center;
@@ -89,6 +97,10 @@
     margin-bottom: 0;
   }
 
+  .scribbled-underline {
+    left: 8%;
+  }
+
   .homepage-illustration {
     justify-content: flex-end;
     flex-shrink: 0;
@@ -132,6 +144,11 @@
     width: 175px;
     left: 202px;
     top: -36px;
+  }
+
+  .scribbled-underline {
+    top: 91px;
+    left: 7%;
   }
 
   .homepage-illustration {
