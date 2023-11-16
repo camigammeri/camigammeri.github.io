@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   max-width: 468px;
+  position: relative;
 }
 
 .homepage-title-copy h1 {
@@ -19,6 +20,14 @@
   font-weight: 700;
   margin-bottom: 24px;
   text-align: center;
+}
+
+.scribbled-circle {
+  position: absolute;
+  z-index: -1;
+  width: 140px;
+  top: -29px;
+  left: 55%;
 }
 
 .homepage-title-copy p {
@@ -72,6 +81,10 @@
     text-align: left;
   }
 
+  .scribbled-circle {
+    left: 160px;
+  }
+
   .homepage-title-copy p {
     margin-bottom: 0;
   }
@@ -113,6 +126,12 @@
 
   .homepage-title-copy h1 {
     font-size: 40px;
+  }
+
+  .scribbled-circle {
+    width: 175px;
+    left: 202px;
+    top: -36px;
   }
 
   .homepage-illustration {
