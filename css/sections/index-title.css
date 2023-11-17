@@ -39,9 +39,9 @@
 .scribbled-underline {
   position: absolute;
   z-index: -1;
-  width: 140px;
+  width: 120px;
   top: 81px;
-  left: 11%;
+  left: 15%;
 }
 
 .homepage-illustration {
@@ -98,7 +98,7 @@
   }
 
   .scribbled-underline {
-    left: 8%;
+    left: 49px;
   }
 
   .homepage-illustration {
@@ -148,7 +148,6 @@
 
   .scribbled-underline {
     top: 91px;
-    left: 7%;
   }
 
   .homepage-illustration {
