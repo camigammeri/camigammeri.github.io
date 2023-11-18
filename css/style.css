@@ -8,10 +8,11 @@
 @import url("sections/footer.css");
 @import url("sections/contact.css");
 @import url("sections/success.css");
+@import url("sections/index-hero.css");
+@import url("sections/index-work.css");
+@import url("sections/about-hero.css");
 @import url("sections/about-description.css");
-@import url("sections/about-title.css");
-@import url("sections/index-title.css");
-@import url("sections/index-projects.css");
+
 
 :root {
 

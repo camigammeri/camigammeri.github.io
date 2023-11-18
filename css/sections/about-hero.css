@@ -1,6 +1,6 @@
-/* ABOUT TITLE SECTION */
+/* ABOUT HERO */
 
-.about-title-container {
+.hero-div-about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,25 +9,25 @@
   margin: 0 auto 80px auto;
 }
 
-.about-title-left {
+.hero-left-about {
   position: relative;
 }
 
-.about-profile-img {
+.profile-img-about {
   height: 160px;
   margin-bottom: 24px;
 }
 
-.about-title-container :is(h1,p) {
+.hero-div-about :is(h1,p) {
   text-align: center;
 }
 
-.about-title-container h1 {
+.hero-div-about h1 {
   font-weight: 600;
   margin-bottom: 8px;
 }
 
-.about-title-container p {
+.hero-div-about p {
   font-size: 20px;
   margin-bottom: 28px;
 }
@@ -60,10 +60,8 @@
 /* BREAKPOINTS */
 
 @media screen and (min-width: 768px) {
-  
-  /* ABOUT TITLE SECTION */
 
-  .about-title-container {
+  .hero-div-about {
     padding: 0 32px;
     flex-direction: row;
     justify-content: center;
@@ -71,20 +69,20 @@
     margin-bottom: 120px;
   }
 
-  .about-profile-img {
+  .profile-img-about {
     height: 260px;
     margin: 0 56px 0 0;
   }
 
-  .about-title-left {
+  .hero-left-about {
     justify-content: flex-start;
   }
 
-  .about-title-container :is(h1,p) {
+  .hero-div-about :is(h1,p) {
     text-align: left;
   }
 
-  .about-title-container h1 {
+  .hero-div-about h1 {
     margin-bottom: 12px;
   }
 
@@ -112,14 +110,12 @@
 
 @media screen and (min-width: 1025px) {
 
-  /* ABOUT TITLE SECTION */
-
-  .about-title-container {
+  .hero-div-about {
     padding: 0 88px;
     margin-bottom: 160px;
   }
 
-  .about-profile-img {
+  .profile-img-about {
     margin: 0 64px 0 0;
   }
 

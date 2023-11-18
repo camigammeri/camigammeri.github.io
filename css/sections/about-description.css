@@ -1,6 +1,6 @@
 /* DESCRIPTION */
 
-.description-containter {
+.description-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -8,7 +8,7 @@
   margin: 0 auto 160px auto;
 }
 
-.description-containter .chapter:not(:last-child) {
+.description-div .chapter:not(:last-child) {
   margin-bottom: 64px;
 }
 
@@ -59,7 +59,7 @@
   position: relative;
 }
 
-.ellipse-services {
+.ellipse-about {
   background: var(--primary-200);
   filter: blur(70px);
   height: 420px;
@@ -90,14 +90,14 @@
 
 /* HOBBIES */
 
-.travel-illustration {
+.illustration-about {
   display: flex;
   justify-content: center;
   position: relative;
   margin-top: 40px;
 }
 
-.travel-illustration img {
+.illustration-about img {
   height: 286px;
 }
 
@@ -105,14 +105,12 @@
 
 @media screen and (min-width: 768px) {
 
-  /* DESCRIPTION */
-
-  .description-containter {
+  .description-div {
     padding: 0 32px;
     margin-bottom: 160px;
   }
 
-  .description-containter .chapter:not(:last-child) {
+  .description-div .chapter:not(:last-child) {
     margin-bottom: 80px;
   }
 
@@ -132,7 +130,7 @@
     margin-bottom: 0;
   }
 
-  .right-column {
+  .chapter-right {
     width: 100%;
     min-width: 400px;
     max-width: 600px;
@@ -141,7 +139,7 @@
 
   /* SERVICES */
 
-  .ellipse-services {
+  .ellipse-about {
     height: 460px;
     width: 460px;
     border-radius: 460px;
@@ -151,11 +149,11 @@
 
   /* HOBBIES */
 
-  .travel-illustration {
+  .illustration-about {
     justify-content: flex-start;
   }
 
-  .travel-illustration img {
+  .illustration-about img {
     height: 320px;
   }
 
@@ -163,14 +161,12 @@
 
 @media screen and (min-width: 1025px) {
 
-  /* DESCRIPTION */
-
-  .description-containter {
+  .description-div {
     padding: 0 88px;
     margin-bottom: 220px;
   }
 
-  .description-containter .chapter:not(:last-child) {
+  .description-div .chapter:not(:last-child) {
     margin-bottom: 120px;
   }
 
@@ -184,7 +180,7 @@
     width: 280px;
   }
 
-  .right-column {
+  .chapter-right {
     max-width: 700px;
   }
 
@@ -199,7 +195,7 @@
     margin-right: 24px;
   }
 
-  .ellipse-services {
+  .ellipse-about {
     height: 520px;
     width: 520px;
     border-radius: 520px;
@@ -215,11 +211,11 @@
 
   /* HOBBIES */
 
-  .travel-illustration {
+  .illustration-about {
     margin-top: 80px;
   }
 
-  .travel-illustration img {
+  .illustration-about img {
     height: 400px;
   }
 

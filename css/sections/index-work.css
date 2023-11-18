@@ -1,6 +1,6 @@
-/* PROJECTS */
+/* WORK */
 
-.projects-container {
+.work-div {
   display: block;
   padding: 0 16px;
   margin-bottom: 160px;
@@ -71,9 +71,7 @@
 
 @media screen and (min-width: 768px) {
 
-  /* PROJECTS */
-
-  .projects-container {
+  .work-div {
     display: block;
     padding: 0 32px;
   }
@@ -102,9 +100,7 @@
 
 @media screen and (min-width: 1025px) {
 
-  /* PROJECTS */
-
-  .projects-container {
+  .work-div {
     padding: 0 80px;
     margin-bottom: 260px;
     scroll-margin-top: 96px;

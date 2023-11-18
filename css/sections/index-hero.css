@@ -1,6 +1,6 @@
-/* HOMEPAGE TITLE SECTION */
+/* INDEX HERO */
 
-.homepage-title-containter {
+.hero-div-index {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,21 +8,21 @@
   margin: 0 auto 160px auto;
 }
 
-.homepage-title-copy {
+.hero-copy-index {
   display: flex;
   flex-direction: column;
   max-width: 468px;
   position: relative;
 }
 
-.homepage-title-copy h1 {
+.hero-copy-index h1 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 24px;
   text-align: center;
 }
 
-.scribbled-circle {
+.scribbled-circle-index {
   position: absolute;
   z-index: -1;
   width: 140px;
@@ -30,13 +30,13 @@
   left: 55%;
 }
 
-.homepage-title-copy p {
+.hero-copy-index p {
   margin-bottom: 48px;
   line-height: 1.6;
   text-align: center;
 }
 
-.scribbled-underline {
+.scribbled-underline-index {
   position: absolute;
   z-index: -1;
   width: 120px;
@@ -44,17 +44,17 @@
   left: 15%;
 }
 
-.homepage-illustration {
+.illustration-div-index {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.illustration {
+.illustration-index {
   height: 286px;
 }
 
-.ellipse-homepage {
+.ellipse-index {
   background: var(--primary-200);
   filter: blur(80px);
   height: 480px;
@@ -69,10 +69,8 @@
 /* BREAKPOINTS */
 
 @media screen and (min-width: 768px) {
-  
-  /* HOMEPAGE TITLE SECTION */
 
-  .homepage-title-containter {
+  .hero-div-index {
     flex-direction: row;
     justify-content: center;
     padding: 0 32px;
@@ -80,38 +78,38 @@
     margin-bottom: 200px;
   } 
 
-  .homepage-title-copy {
+  .hero-copy-index {
     min-width: 320px;
     margin-right: 40px;
   }
 
-  .homepage-title-copy :is(h1,p) {
+  .hero-copy-index :is(h1,p) {
     text-align: left;
   }
 
-  .scribbled-circle {
+  .scribbled-circle-index {
     left: 160px;
   }
 
-  .homepage-title-copy p {
+  .hero-copy-index p {
     margin-bottom: 0;
   }
 
-  .scribbled-underline {
+  .scribbled-underline-index {
     left: 49px;
   }
 
-  .homepage-illustration {
+  .illustration-div-index {
     justify-content: flex-end;
     flex-shrink: 0;
     margin-left: 40px;
   }
 
-  .illustration {
+  .illustration-index {
     height: 280px;
   }
 
-  .ellipse-homepage {
+  .ellipse-index {
     height: 640px;
     width: 640px;
     border-radius: 640px;
@@ -123,42 +121,40 @@
 
 @media screen and (min-width: 1025px) {
 
-  /* HOMEPAGE TITLE SECTION */
-
-  .homepage-title-containter {
+  .hero-div-index {
     padding: 0 80px;
     max-width: 1280px;
     margin-bottom: 220px;
   }
 
-  .homepage-title-copy {
+  .hero-copy-index {
     min-width: 430px;
     margin-right: 54px;
   }
 
-  .homepage-title-copy h1 {
+  .hero-copy-index h1 {
     font-size: 40px;
   }
 
-  .scribbled-circle {
+  .scribbled-circle-index {
     width: 175px;
     left: 202px;
     top: -36px;
   }
 
-  .scribbled-underline {
+  .scribbled-underline-index {
     top: 91px;
   }
 
-  .homepage-illustration {
+  .illustration-div-index {
     margin-left: 54px;
   }
 
-  .illustration {
+  .illustration-index {
     height: 330px;
   }
 
-  .ellipse-homepage {
+  .ellipse-index {
     height: 800px;
     width: 800px;
     border-radius: 800px;
