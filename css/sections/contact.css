@@ -48,7 +48,7 @@ form {
 input, textarea {
   border: 2px solid var(--primary-500);
   border-radius: 4px;
-  background: none;
+  background-color: var(--primary-50);
   color: var(--neutral-900);
   padding: 6px 8px;
   font-family: 'Inter', sans-serif;
@@ -76,8 +76,8 @@ input:focus,
 textarea:focus {
   outline: none !important;
   border: 2px solid var(--primary-700);
-  box-shadow: 0 0 12px var(--primary-300);
-  background-color: var(--primary-50);
+  box-shadow: 0px 0px 20px 4px var(--primary-300);
+  background-color: var(--primary-25);
 }
 
 .btn-div {
@@ -145,6 +145,7 @@ textarea:focus {
   input, textarea {
     border: none;
     border-bottom: 2px solid var(--primary-500);
+    background: none;
     border-radius: 0;
     padding-left: 0;
   }
